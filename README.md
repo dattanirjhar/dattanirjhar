@@ -1,5 +1,5 @@
 # 💫 About Me:
-I teach machines how to see, think, and deceive, then I architect the systems to defend against them. My work lives at the adversarial intersection of AI, robotics, and cybersecurity.
+### I teach machines how to see, think, and deceive, then I architect the systems to defend against them. My work lives at the adversarial intersection of AI, robotics, and cybersecurity.
 
 
 ## 🌐 Socials:
