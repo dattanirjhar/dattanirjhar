@@ -1,5 +1,5 @@
 # 💫 About Me:
-### Wielding Python and algorithms to explore the frontiers of machine perception and adversarial AI. Fascinated by what makes systems intelligent, and what makes them vulnerable.
+### I teach machines how to see, think, and deceive, then I architect the systems to defend against them. My work lives at the adversarial intersection of AI, robotics, and cybersecurity.
 
 
 ## 🌐 Socials:
