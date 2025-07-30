@@ -1,9 +1,9 @@
 # 💫 About Me:
 ### I teach machines how to see, think, and deceive, then I architect the systems to defend against them. My work lives at the adversarial intersection of AI, robotics, and cybersecurity.
 
-#### My work is a meditation on perception—coding machines to interpret our world while interrogating the authenticity of the digital reflection. This translates into building autonomous systems that navigate physical space and AI models that discern fabricated realities. 
+### My work is a meditation on perception—coding machines to interpret our world while interrogating the authenticity of the digital reflection. This translates into building autonomous systems that navigate physical space and AI models that discern fabricated realities. 
 
-I'm fascinated by the line between simulation and understanding.
+### I'm fascinated by the line between simulation and understanding.
 
 
 ## 🌐 Socials:
