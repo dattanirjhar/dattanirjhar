@@ -1,6 +1,8 @@
 # 💫 About Me:
 ### I teach machines how to see, think, and deceive, then I architect the systems to defend against them. My work lives at the adversarial intersection of AI, robotics, and cybersecurity.
 
+#### My work is a meditation on perception—coding machines to interpret our world while interrogating the authenticity of the digital reflection. This translates into building autonomous systems that navigate physical space and AI models that discern fabricated realities. I'm fascinated by the line between simulation and understanding.
+
 
 ## 🌐 Socials:
 [![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?logo=Instagram&logoColor=white)](https://instagram.com/inksplashedtshirt) [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?logo=linkedin&logoColor=white)](https://linkedin.com/in/nirjhardatta) [![email](https://img.shields.io/badge/Email-D14836?logo=gmail&logoColor=white)](mailto:dattanirjhar15@gmail.com) 
