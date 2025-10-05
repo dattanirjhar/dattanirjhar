@@ -1,8 +1,8 @@
 <div align="center">
 
-# 💫 About Me:
+# 🧠 About Me:
 
-> 🧠 *“At the adversarial frontier of AI, robotics, and cybersecurity — I teach machines how to see, think, and deceive,  
+> *“At the adversarial frontier of AI, robotics, and cybersecurity — I teach machines how to see, think, and deceive,  
 > then I architect the systems to defend against them.”*
 
 </div>
