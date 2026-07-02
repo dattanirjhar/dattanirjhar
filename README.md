@@ -1,16 +1,6 @@
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=root%40dattanirjhar%3A~%23+whoami;VAPT+%7C+AI+Security+%7C+Adversarial+ML;Breaking+systems+to+build+better+ones..." alt="Typing SVG" />
-
-</div>
-
-<div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%E2%94%8C%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%80%E2%94%90" alt="border-top" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=SYSTEM+BREACH+DETECTED...+ACCESS+GRANTED" alt="l1" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=IDENTITY%3A+Nirjhar+%22Tyler%22+Datta" alt="l2" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=CLEARANCE%3A+VAPT+InfoSec+Analyst+%40+Five+Tattva+Cyberhub" alt="l3" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=STATUS%3A+Final+Year+CSE+(Cybersecurity)+—+DIT+University" alt="l4" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/header_banner.svg" alt="identity banner" />
 
 </div>
 
@@ -20,14 +10,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=At+the+adversarial+frontier+of+AI%2C+robotics%2C+and+cybersecurity+—" alt="line1" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=I+teach+machines+how+to+see%2C+think%2C+and+deceive%2C" alt="line2" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=then+I+architect+the+systems+to+defend+against+them." alt="line3" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=I+operate+where+AI%2C+cybersecurity%2C+and+robotics+collide." alt="line4" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=Coding+machines+to+interpret+the+world+while+questioning" alt="line5" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=the+authenticity+of+the+digital+reflection+itself." alt="line6" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=Fascinated+by+the+boundary+between+simulation+and+understanding+—" alt="line7" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=25&lines=the+moment+an+algorithm+stops+imitating+intelligence+and+starts+to+reason." alt="line8" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/whoami.svg" alt="whoami" />
 
 </div>
 
@@ -37,12 +20,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=role%3A++++++++VAPT+InfoSec+Analyst+(Intern)+%40+Five+Tattva+Cyberhub+Security+LLP" alt="ops1" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=status%3A++++++CERT-In+empanelled+firm+%7C+Gurgaon" alt="ops2" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=scope%3A+++++++Enterprise+VAPT%2C+CERT-In+regulatory+compliance%2C+live+client+engagements" alt="ops3" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=methodology%3A+PTES-aligned+7-phase+ASM+%E2%86%92+recon+%E2%86%92+scanning+%E2%86%92+validation+%E2%86%92+reporting" alt="ops4" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=tooling%3A++++reNgine%2C+Amass%2C+Subfinder%2C+theHarvester%2C+Nuclei%2C+Nmap%2C+Qualys+VMDR" alt="ops5" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=frameworks%3A++MITRE+ATT%26CK+%7C+CVSS+%7C+EPSS+%7C+CIS+Benchmarks" alt="ops6" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/current_ops.svg" alt="current ops" />
 
 </div>
 
@@ -52,11 +30,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5B%2B%5D+AI-driven+Network+Intrusion+Detection+Systems+(NIDS)+—+anomaly+detection" alt="f1" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5B%2B%5D+Pose+estimation+%26+vision+pipelines+—+MediaPipe+%2F+OpenCV" alt="f2" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5B%2B%5D+Autonomous+rover+prototypes+—+AI-guided+nav%2C+sensor+fusion" alt="f3" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5B%2B%5D+Malware+analysis+labs+%26+adversarial+pentesting+ranges" alt="f4" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5B%2B%5D+Attack+Surface+Monitoring+(ASM)+%26+enterprise+VAPT+reporting" alt="f5" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/focus_areas.svg" alt="focus areas" />
 
 </div>
 
@@ -64,13 +38,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5BEDU%5D++B.Tech%2C+Computer+Science+—+Cybersecurity+Specialization" alt="a1" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=39FF14&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5BORG%5D++DIT+University+·+Expected+Graduation+2026" alt="a2" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=Neural+%26+probabilistic+ML%2FDL+architectures+(TensorFlow%2C+PyTorch)" alt="a3" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=Cryptography%2C+secure+algorithm+design%2C+adversarial+resilience" alt="a4" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=Network+security%2C+IPSec%2C+firewall+architecture" alt="a5" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=AI+ethics+%26+adversarial+search+theory" alt="a6" />
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1&pause=100000&repeat=false&color=666666&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%23+Perception%2C+deception%2C+and+defense+—+a+dialogue+between+creation+and+containment." alt="a7" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/academic_log.svg" alt="academic log" />
 
 </div>
 
@@ -137,7 +105,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=15&duration=1&pause=100000&repeat=false&color=00FF41&background=0D1117&center=true&vCenter=true&width=800&height=22&lines=%5B+CONNECTION+SECURE+%5D+++%5B+SESSION+LOGGED+%5D+++%5B+THANKS+FOR+STOPPING+BY+%5D" alt="closing" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/closing_banner.svg" alt="closing" />
 
 <img src="https://komarev.com/ghpvc/?username=dattanirjhar&color=00ff41&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 

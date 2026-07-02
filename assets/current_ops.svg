@@ -1,0 +1,9 @@
+<svg width="820" height="191" viewBox="0 0 820 191" xmlns="http://www.w3.org/2000/svg">
+<rect width="820" height="191" fill="#0D1117"/>
+<text x="20" y="34" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">role:        VAPT InfoSec Analyst (Intern) @ Five Tattva Cyberhub Security LLP</text>
+<text x="20" y="60" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">status:      CERT-In empanelled firm | Gurgaon</text>
+<text x="20" y="86" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">scope:       Enterprise VAPT, CERT-In regulatory compliance, live engagements</text>
+<text x="20" y="112" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">methodology: PTES-aligned 7-phase ASM -&gt; recon -&gt; scanning -&gt; validation -&gt; report</text>
+<text x="20" y="138" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">tooling:     reNgine, Amass, Subfinder, theHarvester, Nuclei, Nmap, Qualys VMDR</text>
+<text x="20" y="164" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">frameworks:  MITRE ATT&amp;CK | CVSS | EPSS | CIS Benchmarks</text>
+</svg>

@@ -1,0 +1,10 @@
+<svg width="800" height="217" viewBox="0 0 800 217" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="217" fill="#0D1117"/>
+<text x="20" y="34" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#39FF14" xml:space="preserve">[EDU]  B.Tech, Computer Science — Cybersecurity Specialization</text>
+<text x="20" y="60" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#39FF14" xml:space="preserve">[ORG]  DIT University · Expected Graduation 2026</text>
+<text x="20" y="86" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#666666" xml:space="preserve">[FOCUS]</text>
+<text x="20" y="112" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">  - Neural &amp; probabilistic ML/DL architectures (TensorFlow, PyTorch)</text>
+<text x="20" y="138" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">  - Cryptography, secure algorithm design, adversarial resilience</text>
+<text x="20" y="164" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">  - Network security, IPSec, firewall architecture</text>
+<text x="20" y="190" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">  - AI ethics &amp; adversarial search theory</text>
+</svg>

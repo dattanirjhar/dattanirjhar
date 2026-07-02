@@ -1,0 +1,8 @@
+<svg width="800" height="165" viewBox="0 0 800 165" xmlns="http://www.w3.org/2000/svg">
+<rect width="800" height="165" fill="#0D1117"/>
+<text x="20" y="34" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">[+] AI-driven Network Intrusion Detection Systems (NIDS) — anomaly detection</text>
+<text x="20" y="60" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">[+] Pose estimation &amp; vision pipelines — MediaPipe / OpenCV</text>
+<text x="20" y="86" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">[+] Autonomous rover prototypes — AI-guided nav, sensor fusion</text>
+<text x="20" y="112" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">[+] Malware analysis labs &amp; adversarial pentesting ranges</text>
+<text x="20" y="138" font-family="Fira Code, Consolas, monospace" font-size="14" fill="#00FF41" xml:space="preserve">[+] Attack Surface Monitoring (ASM) &amp; enterprise VAPT reporting</text>
+</svg>
