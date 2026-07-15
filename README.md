@@ -85,6 +85,22 @@
 
 ---
 
+<div align="center">
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
+</div>
+<p align="center">
+    <a href="https://github.com/m14r41">
+        <img 
+            alt="m14r41 Activity Graph" 
+            src="https://github-readme-activity-graph.vercel.app/graph?username=m14r41&theme=react-dark" 
+            width="900"  
+            style="display: block; margin: 0 auto;"
+        />
+    </a>
+</p>
+
+---
+
 ## `> fetch --stats`
 
 <div align="center">
