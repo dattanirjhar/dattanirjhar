@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300">
+    <rect width="100%" height="100%" fill="#0d1117"/>
+
+    <text
+        x="30"
+        y="50"
+        fill="#00ff41"
+        font-family="Fira Code"
+        font-size="20">
+
+projects/
+
+├── Genesis/
+│   ├── AI-assisted Penetration Testing Platform
+│   ├── Multi-Agent Architecture
+│   ├── Local LLM Infrastructure
+│   ├── Knowledge Engine
+│   └── Automated Reporting
+│
+├── AI-NIDS/
+│   ├── ML Intrusion Detection System
+│   └── Flask Dashboard
+│
+└── Portfolio/
+    └── nirjharverse.netlify.app
+
+    </text>
+</svg>
