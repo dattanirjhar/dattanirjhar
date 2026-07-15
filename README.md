@@ -93,7 +93,7 @@
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
 </div>
 <p align="center">
-    <a href="https://github.com/m14r41">
+    <a href="https://github.com/dattanirjhar">
         <img 
             alt="Activity Graph" 
             src="https://github-readme-activity-graph.vercel.app/graph?username=dattanirjhar&theme=react-dark" 
@@ -104,8 +104,6 @@
 </p>
 
 <img src="https://streak-stats.demolab.com/?user=dattanirjhar&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FF41&fire=39FF14&currStreakLabel=00FF41" alt="Streak Stats" />
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=dattanirjhar&theme=react-dark&hide_border=true&bg_color=0D1117&color=00FF41&line=39FF14&point=00FF41&area=true" width="65%" alt="Activity Graph" />
 
 <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=dattanirjhar&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&text_color=39FF14&layout=compact&langs_count=8" width="40%" alt="Top Languages" />
 
