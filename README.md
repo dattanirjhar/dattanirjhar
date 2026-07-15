@@ -91,8 +91,8 @@
 <p align="center">
     <a href="https://github.com/m14r41">
         <img 
-            alt="m14r41 Activity Graph" 
-            src="https://github-readme-activity-graph.vercel.app/graph?username=m14r41&theme=react-dark" 
+            alt="Activity Graph" 
+            src="https://github-readme-activity-graph.vercel.app/graph?username=dattanirjhar&theme=react-dark" 
             width="900"  
             style="display: block; margin: 0 auto;"
         />
