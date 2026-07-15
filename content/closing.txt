@@ -1,0 +1,11 @@
+---
+title: root@dattanirjhar:~
+command: exit
+order: 9
+chrome: false
+---
+@divider
+@blank
+[ CONNECTION SECURE ]   [ SESSION LOGGED ]   [ THANKS FOR STOPPING BY ]
+@blank
+@divider

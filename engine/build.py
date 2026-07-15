@@ -3,9 +3,9 @@
 build.py — Build all terminal SVG panels from content files.
 
 Usage:
-    python build.py              # build all panels
-    python build.py whoami       # build a single panel
-    python build.py --list       # list available content files
+    python engine/build.py              # build all panels
+    python engine/build.py whoami       # build a single panel
+    python engine/build.py --list       # list available content files
 
 Content files live in content/*.txt
 Output SVGs are written to output/*.svg
@@ -14,14 +14,17 @@ Output SVGs are written to output/*.svg
 import sys
 from pathlib import Path
 
-# Add templates to path so imports work when running from assets/
-sys.path.insert(0, str(Path(__file__).parent))
+# Add project root to path so we can import config and engine modules
+PROJECT_ROOT = Path(__file__).parent.parent
+sys.path.insert(0, str(PROJECT_ROOT))
 
-from templates.terminal import build_terminal
+import config
+from engine.themes import get_theme
+from engine.terminal import build_terminal
 
 
-CONTENT_DIR = Path(__file__).parent / "content"
-OUTPUT_DIR  = Path(__file__).parent / "output"
+CONTENT_DIR = PROJECT_ROOT / "content"
+OUTPUT_DIR  = PROJECT_ROOT / "output"
 
 
 def parse_frontmatter(text: str) -> tuple[dict, str]:
@@ -63,8 +66,17 @@ def build_one(file: Path) -> Path:
 
     title = meta.get("title", file.stem)
     command = meta.get("command", None)
+    chrome = meta.get("chrome", "false").lower() == "true"
 
-    svg = build_terminal(title=title, body=body, command=command)
+    theme_obj = get_theme(config.THEME)
+
+    svg = build_terminal(
+        title=title, 
+        body=body, 
+        theme=theme_obj, 
+        command=command, 
+        chrome=chrome
+    )
 
     out = OUTPUT_DIR / f"{file.stem}.svg"
     out.write_text(svg, encoding="utf-8")
@@ -97,7 +109,7 @@ def main():
             sys.exit(1)
         out = build_one(file)
         size = out.stat().st_size
-        print(f"  ✓ Built {out.name} ({size:,} bytes)")
+        print(f"  ✓ Built {out.name} ({size:,} bytes) using {config.THEME} theme")
         return
 
     # Build all
@@ -119,7 +131,7 @@ def main():
 
     print()
     print("  ╔══════════════════════════════════════════════╗")
-    print("  ║  Terminal SVG Generator — Building panels... ║")
+    print(f"  ║  Terminal SVG Generator — Theme: {config.THEME:11s} ║")
     print("  ╚══════════════════════════════════════════════╝")
     print()
 

@@ -2,6 +2,7 @@
 title: root@dattanirjhar:~
 command: whoami
 order: 2
+chrome: false
 ---
 At the adversarial frontier of AI, robotics, and cybersecurity —
 I teach machines how to see, think, and deceive,

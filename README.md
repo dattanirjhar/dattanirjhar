@@ -4,42 +4,42 @@
 <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=900&height=45&lines=%24+ssh+root%40dattanirjhar;%24+Establishing+encrypted+tunnel...;%24+ACCESS+GRANTED+%E2%96%88%E2%96%88%E2%96%88+WELCOME" />
 
 <!-- ░░░ HEADER PANEL ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/header.svg" width="900" alt="header" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/header.svg" width="900" alt="header" />
 
 <br/>
 
 <!-- ░░░ WHOAMI ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/whoami.svg" width="900" alt="whoami" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/whoami.svg" width="900" alt="whoami" />
 
 <br/>
 
 <!-- ░░░ CURRENT OPS ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/current_ops.svg" width="900" alt="current_ops" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/current_ops.svg" width="900" alt="current_ops" />
 
 <br/>
 
 <!-- ░░░ PROJECTS ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/projects.svg" width="900" alt="projects" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/projects.svg" width="900" alt="projects" />
 
 <br/>
 
 <!-- ░░░ FOCUS AREAS ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/focus.svg" width="900" alt="focus" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/focus.svg" width="900" alt="focus" />
 
 <br/>
 
 <!-- ░░░ ACADEMICS ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/academics.svg" width="900" alt="academics" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/academics.svg" width="900" alt="academics" />
 
 <br/>
 
 <!-- ░░░ SKILLS ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/skills.svg" width="900" alt="skills" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/skills.svg" width="900" alt="skills" />
 
 <br/>
 
 <!-- ░░░ SOCIALS ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/socials.svg" width="900" alt="socials" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/socials.svg" width="900" alt="socials" />
 
 <br/>
 
@@ -63,10 +63,156 @@
 <br/><br/>
 
 <!-- ░░░ CLOSING BANNER ░░░ -->
-<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/output/closing.svg" width="900" alt="closing" />
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/closing.svg" width="900" alt="closing" />
 
 <br/>
 
 <img src="https://komarev.com/ghpvc/?username=dattanirjhar&color=00ff41&style=flat-square&label=PROFILE+VIEWS" alt="Profile Views" />
 
 </div>
+
+<br/>
+<br/>
+
+---
+
+# Terminal Profile Engine
+
+> Design your GitHub profile like it belongs inside a futuristic operating system.
+
+A Python-powered SVG rendering engine for creating cyberpunk-inspired GitHub profile components.
+
+Instead of static Markdown, Terminal Profile Engine generates modular SVG panels that emulate hacker terminals, futuristic command-line interfaces, and retro CRT displays.
+
+Inspired by the visual language of:
+- Ghost in the Shell
+- The Matrix
+- Cyberpunk 2077
+- Ready Player One
+- Linux/BSD terminals
+- Classic ANSI art
+- Hacker culture
+
+Every panel is generated from plain text and rendered into reusable SVG components, making profile customization effortless while maintaining a cohesive aesthetic.
+
+## Philosophy
+
+Most GitHub profiles look like resumes. 
+
+This project treats your profile as a terminal. 
+
+Commands become section titles. Logs become biographies. Projects become directory trees. Statistics become futuristic HUDs.
+
+Everything is generated from structured text and rendered into pixel-perfect SVG panels. The goal isn't realism. The goal is atmosphere. A profile that feels like it was pulled from a hacker's workstation in a cyberpunk future.
+
+## Features
+
+- Terminal-inspired SVG renderer
+- Cyberpunk visual language
+- Fully modular panel system
+- Hacker aesthetic
+- ANSI-inspired color themes
+- Dynamic sizing
+- Automatic text wrapping
+- Directory tree rendering
+- Terminal window chrome
+- Pixel-perfect SVG generation
+- Theme engine
+- Animation support
+- GitHub Actions compatible
+
+## Inspirations
+
+This project borrows visual ideas from multiple sources.
+
+### Ghost in the Shell
+Minimal interfaces. Transparent overlays. Information density. HUD-inspired layouts.
+
+### The Matrix
+Green phosphor terminals. CRT monitors. Command-line interfaces. Digital rain aesthetics.
+
+### Cyberpunk 2077
+Neon colors. Corporate operating systems. Diagnostic panels. Futuristic UI.
+
+### Ready Player One
+Gamified interfaces. Digital identity. Player statistics. Interactive dashboards.
+
+### Hacker Culture
+ASCII art. UNIX philosophy. Terminal workflows. ANSI colors. Retro computing.
+
+## Folder Structure
+
+```text
+profile-engine/
+
+├── engine/
+│   Rendering engine
+│   SVG generation
+│   Components
+│   Animation system
+│
+├── content/
+│   Plain text files
+│
+├── themes/
+│   Cyberpunk
+│   Matrix
+│   Ghost
+│   CRT
+│   Synthwave
+│
+├── output/
+│   Generated SVG panels
+│
+└── config.py
+```
+
+## Theme Engine
+
+Terminal Profile Engine supports multiple presets. Just set the theme in `config.py`:
+
+```python
+THEME = "matrix"
+```
+
+Available themes:
+- `matrix`: Green phosphor
+- `ghost`: White + cyan HUD
+- `cyberpunk`: Yellow, Cyan, Magenta
+- `synthwave`: Purple, Pink
+- `crt`: Retro amber monitor
+
+## Planned Components
+
+- [x] Terminal Window
+- [x] File Tree
+- [x] Command Prompt
+- [x] Shell Output
+- [x] Progress Bars
+- [ ] ASCII Art
+- [ ] Hex Dumps
+- [ ] Packet Analyzer
+- [ ] System Monitor
+- [ ] Process List
+- [ ] Activity Timeline
+- [x] Animated Cursor
+- [x] CRT Scanlines
+- [ ] Matrix Rain
+- [ ] Pac-Man Contributions (or Space Invaders)
+- [x] Live Typing Animation
+- [ ] Digital HUD Widgets
+
+## Vision
+
+Terminal Profile Engine aims to become a modular rendering toolkit for building hacker-inspired digital identities.
+
+Rather than manually designing SVGs, users describe content in plain text while the engine handles layout, typography, styling, animations, and theming.
+
+The same rendering engine could power:
+- GitHub profile READMEs
+- Portfolio websites
+- Documentation banners
+- Developer dashboards
+- Terminal-themed resumes
+- Cyberpunk landing pages
+- Interactive contribution visualizations

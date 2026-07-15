@@ -1,0 +1,13 @@
+---
+title: root@dattanirjhar:~
+command: cat /etc/motd
+order: 1
+chrome: true
+---
+@prompt SYSTEM BREACH DETECTED ░░░ ACCESS GRANTED ░░░ WELCOME
+@blank
+@label IDENTITY     :: Nirjhar "Tyler" Datta
+@label CLEARANCE    :: VAPT InfoSec Analyst @ Five Tattva Cyberhub
+@label STATUS       :: Final Year CSE (Cybersecurity) — DIT University
+@blank
+@bar THREAT LEVEL :: 85

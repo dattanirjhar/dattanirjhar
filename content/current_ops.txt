@@ -2,10 +2,14 @@
 title: root@dattanirjhar:~
 command: cat current_ops.log
 order: 3
+chrome: false
 ---
 @label role         :: VAPT InfoSec Analyst (Intern) @ Five Tattva Cyberhub Security LLP
 @label status       :: CERT-In empanelled firm | Gurgaon
 @label scope        :: Enterprise VAPT, CERT-In regulatory compliance, live engagements
-@label methodology  :: PTES-aligned 7-phase ASM -> recon -> scanning -> validation -> report
+@blank
+@comment ENGAGEMENT METHODOLOGY (PTES-aligned)
+@pipeline ASM >> Recon >> Scanning >> Validation >> Report
+@blank
 @label tooling      :: reNgine, Amass, Subfinder, theHarvester, Nuclei, Nmap, Qualys VMDR
 @label frameworks   :: MITRE ATT&CK | CVSS | EPSS | CIS Benchmarks

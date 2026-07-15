@@ -2,6 +2,7 @@
 title: root@dattanirjhar:~
 command: exec // socials
 order: 8
+chrome: false
 ---
 @prompt curl -s https://instagram.com/inksplashedtshirt
 @success Connected — @inksplashedtshirt

@@ -1,0 +1,27 @@
+---
+title: root@dattanirjhar:~
+command: grep -r "skills" /stack
+order: 7
+chrome: false
+---
+@comment LANGUAGES & FRAMEWORKS
+@bar Python :: 92
+@bar Bash :: 82
+@bar JavaScript :: 75
+@bar React :: 68
+@bar Node.js :: 70
+@bar MySQL :: 72
+@blank
+@comment AI / ML STACK
+@bar TensorFlow :: 88
+@bar Keras :: 82
+@bar scikit-learn :: 85
+@bar Pandas :: 90
+@bar NumPy :: 92
+@blank
+@comment SECURITY & INFRASTRUCTURE
+@bar Nmap :: 94
+@bar Wireshark :: 88
+@bar Burp Suite :: 82
+@bar Linux :: 92
+@bar Docker :: 78

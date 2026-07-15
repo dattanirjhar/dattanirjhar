@@ -2,6 +2,7 @@
 title: root@dattanirjhar:~
 command: ls -la projects/
 order: 4
+chrome: false
 ---
 projects/
 @blank

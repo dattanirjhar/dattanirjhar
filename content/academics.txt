@@ -2,6 +2,7 @@
 title: root@dattanirjhar:~
 command: tail academic.log
 order: 6
+chrome: false
 ---
 @highlight [EDU]  B.Tech, Computer Science — Cybersecurity Specialization
 @highlight [ORG]  DIT University · Expected Graduation 2026
@@ -12,3 +13,6 @@ order: 6
   - Cryptography, secure algorithm design, adversarial resilience
   - Network security, IPSec, firewall architecture
   - AI ethics & adversarial search theory
+@blank
+@comment LEARNING PIPELINE
+@pipeline Foundations >> Deep Learning >> Adversarial ML >> Applied Security
