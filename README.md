@@ -45,9 +45,9 @@
 
 <!-- ░░░ STATS — PAC-MAN CONTRIBUTION GRID ░░░ -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/output/pacman-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/output/pacman.svg">
-  <img alt="github contribution grid pacman" src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/output/pacman.svg" width="900" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/pacman-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/pacman.svg">
+  <img alt="github contribution grid pacman" src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/pacman.svg" width="900" />
 </picture>
 
 <br/>
