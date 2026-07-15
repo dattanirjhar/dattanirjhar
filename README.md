@@ -85,6 +85,10 @@
 
 ---
 
+## `> fetch --stats`
+
+<div align="center">
+
 <div align="center">
   <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" />
 </div>
@@ -98,14 +102,6 @@
         />
     </a>
 </p>
-
----
-
-## `> fetch --stats`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=dattanirjhar&theme=chartreuse-dark&hide_border=true&bg_color=0D1117&title_color=00FF41&icon_color=00FF41&text_color=39FF14&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 
 <img src="https://streak-stats.demolab.com/?user=dattanirjhar&theme=github-dark-blue&hide_border=true&background=0D1117&ring=00FF41&fire=39FF14&currStreakLabel=00FF41" alt="Streak Stats" />
 
