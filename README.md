@@ -1,5 +1,7 @@
 <div align="center">
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=700&lines=root%40dattanirjhar%3A~%23+whoami;VAPT+%7C+AI+Security+%7C+Adversarial+ML;Breaking+systems+to+build+better+ones..." alt="Typing SVG" />
+<div align="center">
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&lines=root%40dattanirjhar%3A~%23+whoami;VAPT+%7C+AI+Security+%7C+Adversarial+ML;Offensive+Security+%C3%97+AI+%C3%97+Research;Building+autonomous+offensive+security+systems..." />
+</div>
 </div>
 
 ---
@@ -19,6 +21,16 @@
 <div align="center">
 
 <img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/current_ops.svg" alt="current ops" />
+
+</div>
+
+---
+
+## `> ls projects/`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/assets/projects.svg" alt="projects"/>
 
 </div>
 
