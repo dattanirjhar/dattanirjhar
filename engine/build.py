@@ -14,14 +14,11 @@ Output SVGs are written to output/*.svg
 import sys
 from pathlib import Path
 
-# Add project root to path so we can import config and engine modules
+# Add project root to path so we can import engine modules
 PROJECT_ROOT = Path(__file__).parent.parent
 sys.path.insert(0, str(PROJECT_ROOT))
 
-import config
-from engine.themes import get_theme
 from engine.terminal import build_terminal
-
 
 CONTENT_DIR = PROJECT_ROOT / "content"
 OUTPUT_DIR  = PROJECT_ROOT / "output"
@@ -68,12 +65,9 @@ def build_one(file: Path) -> Path:
     command = meta.get("command", None)
     chrome = meta.get("chrome", "false").lower() == "true"
 
-    theme_obj = get_theme(config.THEME)
-
     svg = build_terminal(
         title=title, 
         body=body, 
-        theme=theme_obj, 
         command=command, 
         chrome=chrome
     )
@@ -109,7 +103,7 @@ def main():
             sys.exit(1)
         out = build_one(file)
         size = out.stat().st_size
-        print(f"  ✓ Built {out.name} ({size:,} bytes) using {config.THEME} theme")
+        print(f"  ✓ Built {out.name} ({size:,} bytes)")
         return
 
     # Build all
@@ -131,7 +125,7 @@ def main():
 
     print()
     print("  ╔══════════════════════════════════════════════╗")
-    print(f"  ║  Terminal SVG Generator — Theme: {config.THEME:11s} ║")
+    print("  ║  Terminal SVG Generator — Integrated Theme   ║")
     print("  ╚══════════════════════════════════════════════╝")
     print()
 

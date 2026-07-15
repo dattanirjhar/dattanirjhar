@@ -1,7 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="900" height="484" viewBox="0 0 900 484">
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="492" viewBox="0 0 900 492">
   <defs>
     <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="2.5" result="blur"/>
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2.0" result="blur"/>
       <feMerge>
         <feMergeNode in="blur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -11,40 +11,296 @@
       <line x1="0" y1="0" x2="900" y2="0"
             stroke="#000" stroke-width="1" opacity="0.08"/>
     </pattern>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#00FF41" stroke-width="0.5" opacity="0.03"/>
+    </pattern>
     <marker id="arrow" markerWidth="8" markerHeight="6"
             refX="8" refY="3" orient="auto">
-      <polygon points="0 0, 8 3, 0 6" fill="#005F00"/>
+      <polygon points="0 0, 8 3, 0 6" fill="#4A5568"/>
     </marker>
   </defs>
-  <rect x="1" y="1" rx="12" ry="12" width="898" height="482" fill="#000000" stroke="#003300" stroke-width="1"/>
-  <g filter="url(#glow)">
-    <text x="28" y="42" fill="#39FF14" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">root@dattanirjhar:~# tail academic.log</text>
-    <text x="28" y="98" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">[EDU]  B.Tech, Computer Science — Cybersecurity Specialization</text>
-    <text x="28" y="126" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">[ORG]  DIT University · Expected Graduation 2026</text>
-    <text x="28" y="182" fill="#005F00" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14"># FOCUS AREAS</text>
-    <line x1="28" y1="205" x2="872" y2="205" stroke="#005F00" stroke-width="1" stroke-dasharray="4,6" opacity="0.5"/>
-    <text x="28" y="238" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">  - Neural &amp; probabilistic ML/DL architectures (TensorFlow, PyTorch)</text>
-    <text x="28" y="266" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">  - Cryptography, secure algorithm design, adversarial resilience</text>
-    <text x="28" y="294" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">  - Network security, IPSec, firewall architecture</text>
-    <text x="28" y="322" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14">  - AI ethics &amp; adversarial search theory</text>
-    <text x="28" y="378" fill="#005F00" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="14"># LEARNING PIPELINE</text>
-    <rect x="28.0" y="392" width="194.5" height="28" rx="6" fill="#051005" stroke="#003300"/>
-    <text x="125.2" y="408" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="12" text-anchor="middle">Foundations</text>
-    <line x1="224.5" y1="406.0" x2="242.5" y2="406.0" stroke="#005F00" stroke-width="1.5" marker-end="url(#arrow)"/>
-    <rect x="244.5" y="392" width="194.5" height="28" rx="6" fill="#051005" stroke="#003300"/>
-    <text x="341.8" y="408" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="12" text-anchor="middle">Deep Learning</text>
-    <line x1="441.0" y1="406.0" x2="459.0" y2="406.0" stroke="#005F00" stroke-width="1.5" marker-end="url(#arrow)"/>
-    <rect x="461.0" y="392" width="194.5" height="28" rx="6" fill="#051005" stroke="#003300"/>
-    <text x="558.2" y="408" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="12" text-anchor="middle">Adversarial ML</text>
-    <line x1="657.5" y1="406.0" x2="675.5" y2="406.0" stroke="#005F00" stroke-width="1.5" marker-end="url(#arrow)"/>
-    <rect x="677.5" y="392" width="194.5" height="28" rx="6" fill="#051005" stroke="#003300"/>
-    <text x="774.8" y="408" fill="#00FF41" font-family="JetBrains Mono, Cascadia Code, Fira Code, Consolas, monospace" font-size="12" text-anchor="middle">Applied Security</text>
+  <rect x="1" y="1" rx="8" ry="8" width="898" height="490" fill="#050A05" stroke="#1A331A" stroke-width="1"/>
+  <rect x="1" y="1" rx="8" ry="8" width="898" height="490" fill="url(#grid)" pointer-events="none"/>
+  <g class="matrix-rain">
+<text x="15" y="10" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｳ</text>
+<text x="15" y="26" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">1</text>
+<text x="15" y="42" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾗ</text>
+<text x="15" y="58" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｰ</text>
+<text x="15" y="74" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾇ</text>
+<text x="15" y="90" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">2</text>
+<text x="15" y="106" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">8</text>
+<text x="15" y="122" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾕ</text>
+<text x="15" y="138" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">4</text>
+<text x="15" y="154" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">0</text>
+<text x="75" y="92" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾂ</text>
+<text x="75" y="108" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾒ</text>
+<text x="75" y="124" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｷ</text>
+<text x="75" y="140" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｴ</text>
+<text x="75" y="156" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾊ</text>
+<text x="75" y="172" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">1</text>
+<text x="75" y="188" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｷ</text>
+<text x="75" y="204" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾃ</text>
+<text x="75" y="220" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">6</text>
+<text x="195" y="98" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｵ</text>
+<text x="195" y="114" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｷ</text>
+<text x="195" y="130" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">7</text>
+<text x="195" y="146" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾆ</text>
+<text x="195" y="162" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾂ</text>
+<text x="195" y="178" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">8</text>
+<text x="195" y="194" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">7</text>
+<text x="225" y="33" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｷ</text>
+<text x="225" y="49" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">7</text>
+<text x="225" y="65" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｵ</text>
+<text x="225" y="81" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾐ</text>
+<text x="225" y="97" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾊ</text>
+<text x="225" y="113" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾑ</text>
+<text x="225" y="129" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾂ</text>
+<text x="225" y="145" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">3</text>
+<text x="225" y="161" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｹ</text>
+<text x="225" y="177" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾀ</text>
+<text x="225" y="193" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">8</text>
+<text x="225" y="209" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｱ</text>
+<text x="225" y="225" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">2</text>
+<text x="225" y="241" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">4</text>
+<text x="225" y="257" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">4</text>
+<text x="225" y="273" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｵ</text>
+<text x="225" y="289" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾅ</text>
+<text x="225" y="305" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｰ</text>
+<text x="225" y="321" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｼ</text>
+<text x="285" y="14" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾈ</text>
+<text x="285" y="30" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">2</text>
+<text x="285" y="46" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">0</text>
+<text x="285" y="62" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｼ</text>
+<text x="285" y="78" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">1</text>
+<text x="285" y="94" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">8</text>
+<text x="285" y="110" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾃ</text>
+<text x="285" y="126" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾈ</text>
+<text x="285" y="142" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｱ</text>
+<text x="285" y="158" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｻ</text>
+<text x="285" y="174" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｳ</text>
+<text x="285" y="190" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾏ</text>
+<text x="285" y="206" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾇ</text>
+<text x="285" y="222" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾓ</text>
+<text x="285" y="238" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾆ</text>
+<text x="315" y="221" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">5</text>
+<text x="315" y="237" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">1</text>
+<text x="315" y="253" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｶ</text>
+<text x="315" y="269" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾏ</text>
+<text x="315" y="285" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾘ</text>
+<text x="345" y="9" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">1</text>
+<text x="345" y="25" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾅ</text>
+<text x="345" y="41" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">2</text>
+<text x="345" y="57" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾍ</text>
+<text x="345" y="73" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾗ</text>
+<text x="345" y="89" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">1</text>
+<text x="345" y="105" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾜ</text>
+<text x="345" y="121" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾑ</text>
+<text x="345" y="137" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">8</text>
+<text x="345" y="153" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾍ</text>
+<text x="345" y="169" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾘ</text>
+<text x="345" y="185" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾒ</text>
+<text x="345" y="201" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">2</text>
+<text x="345" y="217" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｵ</text>
+<text x="345" y="233" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">7</text>
+<text x="345" y="249" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾋ</text>
+<text x="345" y="265" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾒ</text>
+<text x="345" y="281" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾘ</text>
+<text x="345" y="297" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾀ</text>
+<text x="405" y="242" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾘ</text>
+<text x="405" y="258" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾕ</text>
+<text x="405" y="274" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｳ</text>
+<text x="405" y="290" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｴ</text>
+<text x="405" y="306" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾈ</text>
+<text x="405" y="322" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾐ</text>
+<text x="405" y="338" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">8</text>
+<text x="405" y="354" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾑ</text>
+<text x="405" y="370" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｳ</text>
+<text x="405" y="386" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾜ</text>
+<text x="405" y="402" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾅ</text>
+<text x="405" y="418" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾎ</text>
+<text x="405" y="434" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾋ</text>
+<text x="405" y="450" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">2</text>
+<text x="405" y="466" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">8</text>
+<text x="405" y="482" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">0</text>
+<text x="435" y="155" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾆ</text>
+<text x="435" y="171" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｷ</text>
+<text x="435" y="187" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾈ</text>
+<text x="435" y="203" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">2</text>
+<text x="435" y="219" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾀ</text>
+<text x="435" y="235" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾃ</text>
+<text x="495" y="13" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">4</text>
+<text x="495" y="29" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾍ</text>
+<text x="495" y="45" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾇ</text>
+<text x="495" y="61" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｻ</text>
+<text x="495" y="77" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾋ</text>
+<text x="495" y="93" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾘ</text>
+<text x="495" y="109" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">3</text>
+<text x="495" y="125" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">5</text>
+<text x="495" y="141" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｰ</text>
+<text x="495" y="157" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">4</text>
+<text x="495" y="173" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｹ</text>
+<text x="495" y="189" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾂ</text>
+<text x="495" y="205" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｹ</text>
+<text x="555" y="103" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｹ</text>
+<text x="555" y="119" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾋ</text>
+<text x="555" y="135" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">6</text>
+<text x="555" y="151" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｳ</text>
+<text x="555" y="167" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾂ</text>
+<text x="555" y="183" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾅ</text>
+<text x="555" y="199" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾋ</text>
+<text x="555" y="215" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｶ</text>
+<text x="555" y="231" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｾ</text>
+<text x="555" y="247" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾏ</text>
+<text x="555" y="263" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">8</text>
+<text x="555" y="279" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">9</text>
+<text x="555" y="295" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾏ</text>
+<text x="555" y="311" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｳ</text>
+<text x="555" y="327" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾅ</text>
+<text x="555" y="343" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｳ</text>
+<text x="555" y="359" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾓ</text>
+<text x="555" y="375" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">5</text>
+<text x="555" y="391" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾒ</text>
+<text x="585" y="85" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ｱ</text>
+<text x="585" y="101" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾐ</text>
+<text x="585" y="117" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾗ</text>
+<text x="585" y="133" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾊ</text>
+<text x="585" y="149" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾅ</text>
+<text x="585" y="165" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｱ</text>
+<text x="585" y="181" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｾ</text>
+<text x="585" y="197" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾗ</text>
+<text x="585" y="213" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｼ</text>
+<text x="585" y="229" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾓ</text>
+<text x="585" y="245" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｶ</text>
+<text x="585" y="261" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾓ</text>
+<text x="585" y="277" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾊ</text>
+<text x="585" y="293" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾊ</text>
+<text x="585" y="309" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾂ</text>
+<text x="585" y="325" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">9</text>
+<text x="585" y="341" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">2</text>
+<text x="585" y="357" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾕ</text>
+<text x="585" y="373" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾓ</text>
+<text x="585" y="389" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾘ</text>
+<text x="615" y="40" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">1</text>
+<text x="615" y="56" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾒ</text>
+<text x="615" y="72" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾕ</text>
+<text x="615" y="88" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾘ</text>
+<text x="615" y="104" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｳ</text>
+<text x="615" y="120" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾊ</text>
+<text x="615" y="136" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｵ</text>
+<text x="615" y="152" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾈ</text>
+<text x="615" y="168" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｵ</text>
+<text x="615" y="184" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">9</text>
+<text x="615" y="200" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾒ</text>
+<text x="615" y="216" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾋ</text>
+<text x="615" y="232" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾎ</text>
+<text x="615" y="248" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾇ</text>
+<text x="615" y="264" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">1</text>
+<text x="615" y="280" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">1</text>
+<text x="615" y="296" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｱ</text>
+<text x="615" y="312" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ｱ</text>
+<text x="645" y="126" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾗ</text>
+<text x="645" y="142" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾇ</text>
+<text x="645" y="158" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">3</text>
+<text x="645" y="174" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾊ</text>
+<text x="645" y="190" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">0</text>
+<text x="645" y="206" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">1</text>
+<text x="645" y="222" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">9</text>
+<text x="645" y="238" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾗ</text>
+<text x="645" y="254" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">9</text>
+<text x="645" y="270" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">6</text>
+<text x="645" y="286" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｼ</text>
+<text x="645" y="302" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾏ</text>
+<text x="645" y="318" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">9</text>
+<text x="645" y="334" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾑ</text>
+<text x="645" y="350" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">2</text>
+<text x="675" y="144" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">6</text>
+<text x="675" y="160" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾑ</text>
+<text x="675" y="176" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">0</text>
+<text x="675" y="192" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾂ</text>
+<text x="675" y="208" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">4</text>
+<text x="675" y="224" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｹ</text>
+<text x="675" y="240" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｾ</text>
+<text x="675" y="256" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾇ</text>
+<text x="675" y="272" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾆ</text>
+<text x="675" y="288" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾃ</text>
+<text x="705" y="121" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾘ</text>
+<text x="705" y="137" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｵ</text>
+<text x="705" y="153" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾓ</text>
+<text x="705" y="169" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾘ</text>
+<text x="705" y="185" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">6</text>
+<text x="705" y="201" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾋ</text>
+<text x="705" y="217" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">7</text>
+<text x="735" y="146" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾑ</text>
+<text x="735" y="162" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">8</text>
+<text x="735" y="178" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ｳ</text>
+<text x="735" y="194" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｵ</text>
+<text x="735" y="210" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾍ</text>
+<text x="735" y="226" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">2</text>
+<text x="735" y="242" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｼ</text>
+<text x="735" y="258" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾈ</text>
+<text x="735" y="274" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">2</text>
+<text x="735" y="290" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｾ</text>
+<text x="735" y="306" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾇ</text>
+<text x="735" y="322" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">2</text>
+<text x="735" y="338" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾆ</text>
+<text x="735" y="354" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｽ</text>
+<text x="735" y="370" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾘ</text>
+<text x="735" y="386" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾎ</text>
+<text x="735" y="402" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾍ</text>
+<text x="735" y="418" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾘ</text>
+<text x="735" y="434" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾋ</text>
+<text x="735" y="450" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾘ</text>
+<text x="795" y="20" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｵ</text>
+<text x="795" y="36" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾓ</text>
+<text x="795" y="52" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾋ</text>
+<text x="795" y="68" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾒ</text>
+<text x="795" y="84" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">ﾕ</text>
+<text x="795" y="100" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾕ</text>
+<text x="795" y="116" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">4</text>
+<text x="795" y="132" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">1</text>
+<text x="795" y="148" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">3</text>
+<text x="885" y="164" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾀ</text>
+<text x="885" y="180" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾗ</text>
+<text x="885" y="196" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ｷ</text>
+<text x="885" y="212" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.04">ﾑ</text>
+<text x="885" y="228" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.05">ﾈ</text>
+<text x="885" y="244" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">6</text>
+<text x="885" y="260" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾑ</text>
+<text x="885" y="276" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.01">9</text>
+<text x="885" y="292" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">8</text>
+<text x="885" y="308" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.02">ﾈ</text>
+<text x="885" y="324" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ｱ</text>
+<text x="885" y="340" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14" opacity="0.03">ﾂ</text>
   </g>
-  <rect width="900" height="484"
+  <path d="M 32 16 L 16 16 L 16 32 M 868 16 L 884 16 L 884 32 M 32 476 L 16 476 L 16 460 M 868 476 L 884 476 L 884 460" fill="none" stroke="#00F0FF" stroke-width="1.5" opacity="0.6"/>
+  <g filter="url(#glow)">
+    <text x="32" y="46" fill="#00F0FF" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">root@dattanirjhar:~# tail academic.log</text>
+    <text x="32" y="102" fill="#FCEE09" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">[EDU]  B.Tech, Computer Science — Cybersecurity Specialization</text>
+    <text x="32" y="130" fill="#FCEE09" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">[ORG]  DIT University · Expected Graduation 2026</text>
+    <text x="32" y="186" fill="#4A5568" font-family="Fira Code, JetBrains Mono, monospace" font-size="14"># FOCUS AREAS</text>
+    <line x1="32" y1="209" x2="868" y2="209" stroke="#4A5568" stroke-width="1" stroke-dasharray="4,6" opacity="0.5"/>
+    <text x="32" y="242" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">  - Neural &amp; probabilistic ML/DL architectures (TensorFlow, PyTorch)</text>
+    <text x="32" y="270" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">  - Cryptography, secure algorithm design, adversarial resilience</text>
+    <text x="32" y="298" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">  - Network security, IPSec, firewall architecture</text>
+    <text x="32" y="326" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="14">  - AI ethics &amp; adversarial search theory</text>
+    <text x="32" y="382" fill="#4A5568" font-family="Fira Code, JetBrains Mono, monospace" font-size="14"># LEARNING PIPELINE</text>
+    <rect x="32.0" y="396" width="192.5" height="28" rx="2" fill="#0A140A" stroke="#1A331A"/>
+    <text x="128.2" y="412" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="12" text-anchor="middle">Foundations</text>
+    <line x1="226.5" y1="410.0" x2="244.5" y2="410.0" stroke="#4A5568" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="246.5" y="396" width="192.5" height="28" rx="2" fill="#0A140A" stroke="#1A331A"/>
+    <text x="342.8" y="412" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="12" text-anchor="middle">Deep Learning</text>
+    <line x1="441.0" y1="410.0" x2="459.0" y2="410.0" stroke="#4A5568" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="461.0" y="396" width="192.5" height="28" rx="2" fill="#0A140A" stroke="#1A331A"/>
+    <text x="557.2" y="412" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="12" text-anchor="middle">Adversarial ML</text>
+    <line x1="655.5" y1="410.0" x2="673.5" y2="410.0" stroke="#4A5568" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <rect x="675.5" y="396" width="192.5" height="28" rx="2" fill="#0A140A" stroke="#1A331A"/>
+    <text x="771.8" y="412" fill="#00FF41" font-family="Fira Code, JetBrains Mono, monospace" font-size="12" text-anchor="middle">Applied Security</text>
+  </g>
+  <rect width="900" height="492"
         fill="url(#scanlines)" pointer-events="none"/>
-  <rect x="876.0" y="393"
+  <rect x="872.0" y="397"
         width="9" height="16"
-        fill="#39FF14">
+        fill="#00FF41">
     <animate attributeName="opacity"
              values="1;1;0;0" dur="1.2s"
              repeatCount="indefinite"/>

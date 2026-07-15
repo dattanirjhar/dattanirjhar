@@ -1,7 +1,7 @@
 <div align="center">
 
 <!-- ░░░ TYPING ANIMATION ░░░ -->
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&duration=2500&pause=800&color=00FF41&center=true&vCenter=true&width=900&height=45&lines=%24+ssh+root%40dattanirjhar;%24+Establishing+encrypted+tunnel...;%24+ACCESS+GRANTED+%E2%96%88%E2%96%88%E2%96%88+WELCOME" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=28&duration=3000&pause=1000&color=00FF41&center=true&vCenter=true&width=900&lines=root%40dattanirjhar%3A~%23+whoami;VAPT+%7C+AI+Security+%7C+Adversarial+ML;Offensive+Security+%C3%97+AI+%C3%97+Research;Building+autonomous+offensive+security+systems..." />
 
 <!-- ░░░ HEADER PANEL ░░░ -->
 <img src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/main/output/header.svg" width="900" alt="header" />
@@ -43,8 +43,12 @@
 
 <br/>
 
-<!-- ░░░ STATS — CONTRIBUTION SNAKE ░░░ -->
-<img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake.svg" width="900" />
+<!-- ░░░ STATS — PAC-MAN CONTRIBUTION GRID ░░░ -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/output/pacman-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/output/pacman.svg">
+  <img alt="github contribution grid pacman" src="https://raw.githubusercontent.com/dattanirjhar/dattanirjhar/output/pacman.svg" width="900" />
+</picture>
 
 <br/>
 
@@ -108,16 +112,14 @@ Everything is generated from structured text and rendered into pixel-perfect SVG
 ## Features
 
 - Terminal-inspired SVG renderer
-- Cyberpunk visual language
+- Integrated Cyberpunk/Hacker visual language
 - Fully modular panel system
-- Hacker aesthetic
-- ANSI-inspired color themes
 - Dynamic sizing
 - Automatic text wrapping
 - Directory tree rendering
 - Terminal window chrome
 - Pixel-perfect SVG generation
-- Theme engine
+- Matrix Digital Rain & HUD Overlays
 - Animation support
 - GitHub Actions compatible
 
@@ -146,41 +148,16 @@ ASCII art. UNIX philosophy. Terminal workflows. ANSI colors. Retro computing.
 profile-engine/
 
 ├── engine/
-│   Rendering engine
-│   SVG generation
-│   Components
-│   Animation system
+│   ├── build.py
+│   ├── terminal.py
+│   └── theme.py
 │
 ├── content/
 │   Plain text files
 │
-├── themes/
-│   Cyberpunk
-│   Matrix
-│   Ghost
-│   CRT
-│   Synthwave
-│
-├── output/
-│   Generated SVG panels
-│
-└── config.py
+└── output/
+    Generated SVG panels
 ```
-
-## Theme Engine
-
-Terminal Profile Engine supports multiple presets. Just set the theme in `config.py`:
-
-```python
-THEME = "matrix"
-```
-
-Available themes:
-- `matrix`: Green phosphor
-- `ghost`: White + cyan HUD
-- `cyberpunk`: Yellow, Cyan, Magenta
-- `synthwave`: Purple, Pink
-- `crt`: Retro amber monitor
 
 ## Planned Components
 
@@ -197,10 +174,10 @@ Available themes:
 - [ ] Activity Timeline
 - [x] Animated Cursor
 - [x] CRT Scanlines
-- [ ] Matrix Rain
-- [ ] Pac-Man Contributions (or Space Invaders)
+- [x] Matrix Rain
+- [x] Pac-Man Contributions (or Space Invaders)
 - [x] Live Typing Animation
-- [ ] Digital HUD Widgets
+- [x] Digital HUD Widgets
 
 ## Vision
 

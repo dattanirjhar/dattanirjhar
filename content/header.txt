@@ -6,7 +6,7 @@ chrome: true
 ---
 @prompt SYSTEM BREACH DETECTED ░░░ ACCESS GRANTED ░░░ WELCOME
 @blank
-@label IDENTITY     :: Nirjhar "Tyler" Datta
+@label IDENTITY     :: Nirjhar Datta
 @label CLEARANCE    :: VAPT InfoSec Analyst @ Five Tattva Cyberhub
 @label STATUS       :: Final Year CSE (Cybersecurity) — DIT University
 @blank

@@ -7,6 +7,7 @@ that looks like a 90s hacker terminal window.
 Features:
   • macOS chrome (optional — header bar + traffic lights)
   • CRT phosphor glow + scanline overlay
+  • Matrix digital rain + HUD grid + corner brackets
   • Blinking block cursor
   • Directives: @prompt @comment @highlight @success @warning
                 @error @label @divider @blank @ascii
@@ -14,15 +15,16 @@ Features:
                 @pipeline (flow diagrams)
 """
 
+import random
 from xml.sax.saxutils import escape
-from .themes.base import Theme
+from . import theme
 
 
 # ═══════════════════════════════════════════════════════════
 #  Directive Parser
 # ═══════════════════════════════════════════════════════════
 
-def _parse_lines(body: str, theme: type[Theme]) -> list[dict]:
+def _parse_lines(body: str) -> list[dict]:
     """Parse body text into a list of renderable line dicts."""
     lines = body.splitlines()
     parsed = []
@@ -187,7 +189,7 @@ def _compute_bar_label_width(parsed: list[dict]) -> int:
 #  SVG Definitions (filters, patterns, markers)
 # ═══════════════════════════════════════════════════════════
 
-def _build_defs(has_pipeline: bool, theme: type[Theme]) -> str:
+def _build_defs(has_pipeline: bool) -> str:
     """Single <defs> block with all filters, patterns, and markers."""
     parts = []
 
@@ -210,6 +212,13 @@ def _build_defs(has_pipeline: bool, theme: type[Theme]) -> str:
             f'    </pattern>'
         )
 
+    # Background Grid pattern
+    parts.append(
+        f'    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">\n'
+        f'      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="{theme.GRID_COLOR}" stroke-width="0.5" opacity="{theme.GRID_OPACITY}"/>\n'
+        f'    </pattern>'
+    )
+
     if has_pipeline:
         parts.append(
             f'    <marker id="arrow" markerWidth="8" markerHeight="6"\n'
@@ -218,17 +227,67 @@ def _build_defs(has_pipeline: bool, theme: type[Theme]) -> str:
             f'    </marker>'
         )
 
-    if not parts:
-        return ""
-
     return "  <defs>\n" + "\n".join(parts) + "\n  </defs>"
 
 
 # ═══════════════════════════════════════════════════════════
-#  Overlays & Cursor
+#  Overlays, HUD, & Cyber Rain
 # ═══════════════════════════════════════════════════════════
 
-def _build_scanline_overlay(height: int, theme: type[Theme]) -> str:
+def _build_hud_elements(width: int, height: int, chrome: bool) -> str:
+    """Corner brackets and background elements for the Ghost in the Shell HUD aesthetic."""
+    cx = width
+    cy = height
+    m = theme.PADDING // 2
+    l = 16 # Bracket leg length
+    s = 1.5 # Stroke width
+    
+    y_offset = theme.HEADER_HEIGHT if chrome else 0
+    top = y_offset + m
+    bot = cy - m
+
+    paths = [
+        # Top-left bracket
+        f'M {m+l} {top} L {m} {top} L {m} {top+l}',
+        # Top-right bracket
+        f'M {cx-m-l} {top} L {cx-m} {top} L {cx-m} {top+l}',
+        # Bottom-left bracket
+        f'M {m+l} {bot} L {m} {bot} L {m} {bot-l}',
+        # Bottom-right bracket
+        f'M {cx-m-l} {bot} L {cx-m} {bot} L {cx-m} {bot-l}',
+    ]
+    
+    d = " ".join(paths)
+    return f'  <path d="{d}" fill="none" stroke="{theme.PROMPT}" stroke-width="{s}" opacity="0.6"/>'
+
+def _build_matrix_rain(width: int, height: int) -> str:
+    """Subtle matrix code rain in the background."""
+    # Generate static digital rain so SVG doesn't need JS
+    chars = "01ﾊﾐﾋｰｳｼﾅﾓﾆｻﾜﾂｵﾘｱﾎﾃﾏｹﾒｴｶｷﾑﾕﾗｾﾈｽﾀﾇﾍ123456789"
+    lines = []
+    random.seed(42) # Deterministic for SVG reproducibility
+    
+    num_columns = width // 30
+    for col in range(num_columns):
+        if random.random() > 0.4: # Only 60% of columns have rain
+            x = col * 30 + 15
+            y_start = random.randint(-50, height // 2)
+            length = random.randint(5, 20)
+            
+            col_chars = []
+            for i in range(length):
+                char = random.choice(chars)
+                y = y_start + (i * 16)
+                if 0 < y < height:
+                    opacity = random.uniform(0.01, 0.05) # VERY subtle
+                    col_chars.append(f'<text x="{x}" y="{y}" fill="{theme.TEXT}" font-family="{theme.FONT_FAMILY}" font-size="14" opacity="{opacity:.2f}">{char}</text>')
+            
+            lines.extend(col_chars)
+            
+    return "\n".join(["  <g class=\"matrix-rain\">"] + lines + ["  </g>"])
+
+
+def _build_scanline_overlay(height: int) -> str:
     if not theme.SCANLINES:
         return ""
     return (
@@ -237,7 +296,7 @@ def _build_scanline_overlay(height: int, theme: type[Theme]) -> str:
     )
 
 
-def _build_cursor(x: float, y: float, theme: type[Theme]) -> str:
+def _build_cursor(x: float, y: float) -> str:
     if not theme.CURSOR_BLINK:
         return ""
     return (
@@ -258,22 +317,13 @@ def _build_cursor(x: float, y: float, theme: type[Theme]) -> str:
 def build_terminal(
     title: str,
     body: str,
-    theme: type[Theme],
     command: str | None = None,
     chrome: bool = True,
 ) -> str:
     """
     Build a complete SVG terminal panel.
-
-    Args:
-        title:   Window title bar text (shown only when chrome=True)
-        body:    Content text with @directives
-        theme:   Theme object with design tokens
-        command: Optional shell command shown as first prompt line
-        chrome:  True  → macOS window chrome (header + traffic lights)
-                 False → minimal panel (just rounded dark box)
     """
-    parsed = _parse_lines(body, theme)
+    parsed = _parse_lines(body)
     label_width = _compute_label_width(parsed)
     bar_label_width = _compute_bar_label_width(parsed)
     has_pipeline = any(l["type"] == "pipeline" for l in parsed)
@@ -303,14 +353,20 @@ def build_terminal(
     )
 
     # ── Defs ────────────────────────────────────────────────
-    svg.append(_build_defs(has_pipeline, theme))
+    svg.append(_build_defs(has_pipeline))
 
-    # ── Background ──────────────────────────────────────────
+    # ── Background & Grid & Rain ────────────────────────────
     svg.append(
         f'  <rect x="1" y="1" rx="{theme.RADIUS}" ry="{theme.RADIUS}"'
         f' width="{theme.WIDTH - 2}" height="{height - 2}"'
         f' fill="{theme.BACKGROUND}" stroke="{theme.BORDER}" stroke-width="1"/>'
     )
+    svg.append(f'  <rect x="1" y="1" rx="{theme.RADIUS}" ry="{theme.RADIUS}" width="{theme.WIDTH - 2}" height="{height - 2}" fill="url(#grid)" pointer-events="none"/>')
+    svg.append(_build_matrix_rain(theme.WIDTH, height))
+
+    # ── HUD Brackets ────────────────────────────────────────
+    svg.append(_build_hud_elements(theme.WIDTH, height, chrome))
+
 
     # ── Chrome: header bar + buttons + title ────────────────
     if chrome:
@@ -511,10 +567,10 @@ def build_terminal(
     svg.append("  </g>")
 
     # ── Scanlines overlay ───────────────────────────────────
-    svg.append(_build_scanline_overlay(height, theme))
+    svg.append(_build_scanline_overlay(height))
 
     # ── Blinking cursor ─────────────────────────────────────
-    svg.append(_build_cursor(last_x + 4, last_y, theme))
+    svg.append(_build_cursor(last_x + 4, last_y))
 
     svg.append("</svg>")
 
