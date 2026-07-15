@@ -1,0 +1,10 @@
+---
+title: root@dattanirjhar:~
+command: exit
+order: 9
+---
+@ascii ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░
+@blank
+[ CONNECTION SECURE ]   [ SESSION LOGGED ]   [ THANKS FOR STOPPING BY ]
+@blank
+@ascii ░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░

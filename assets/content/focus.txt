@@ -1,0 +1,10 @@
+---
+title: root@dattanirjhar:~
+command: ls -la focus_areas/
+order: 5
+---
+@success AI-driven Network Intrusion Detection Systems (NIDS) — anomaly detection
+@success Pose estimation & vision pipelines — MediaPipe / OpenCV
+@success Autonomous rover prototypes — AI-guided nav, sensor fusion
+@success Malware analysis labs & adversarial pentesting ranges
+@success Attack Surface Monitoring (ASM) & enterprise VAPT reporting

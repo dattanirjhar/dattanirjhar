@@ -1,0 +1,13 @@
+---
+title: root@dattanirjhar:~
+command: exec // socials
+order: 8
+---
+@prompt curl -s https://instagram.com/inksplashedtshirt
+@success Connected — @inksplashedtshirt
+@blank
+@prompt curl -s https://linkedin.com/in/nirjhardatta
+@success Connected — Nirjhar Datta
+@blank
+@prompt ping dattanirjhar15@gmail.com
+@success REPLY — 64 bytes from mail.google.com: ttl=128

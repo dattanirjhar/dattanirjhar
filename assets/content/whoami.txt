@@ -1,0 +1,16 @@
+---
+title: root@dattanirjhar:~
+command: whoami
+order: 2
+---
+At the adversarial frontier of AI, robotics, and cybersecurity —
+I teach machines how to see, think, and deceive,
+then I architect the systems to defend against them.
+@blank
+I operate where AI, cybersecurity, and robotics collide. My work
+is a meditation on perception — coding machines to interpret the
+world while questioning the authenticity of the digital reflection.
+@blank
+Fascinated by the boundary between simulation and understanding —
+the moment an algorithm stops imitating intelligence and starts
+to reason.

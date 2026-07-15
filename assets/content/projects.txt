@@ -1,0 +1,20 @@
+---
+title: root@dattanirjhar:~
+command: ls -la projects/
+order: 4
+---
+projects/
+@blank
+├── Genesis/
+│   ├── AI-assisted Penetration Testing Platform
+│   ├── Multi-Agent Architecture
+│   ├── Local LLM Infrastructure
+│   ├── Knowledge Engine
+│   └── Automated Reporting
+│
+├── AI-NIDS/
+│   ├── ML Intrusion Detection System
+│   └── Flask Dashboard
+│
+└── Portfolio/
+    └── nirjharverse.netlify.app

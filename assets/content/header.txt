@@ -1,0 +1,22 @@
+---
+title: root@dattanirjhar:~
+command: cat /etc/motd
+order: 1
+---
+@ascii ╔══════════════════════════════════════════════════════════════════════════════╗
+@ascii ║                                                                              ║
+@ascii ║   ███████╗██╗   ██╗███████╗████████╗███████╗███╗   ███╗                      ║
+@ascii ║   ██╔════╝╚██╗ ██╔╝██╔════╝╚══██╔══╝██╔════╝████╗ ████║                      ║
+@ascii ║   ███████╗ ╚████╔╝ ███████╗   ██║   █████╗  ██╔████╔██║                      ║
+@ascii ║   ╚════██║  ╚██╔╝  ╚════██║   ██║   ██╔══╝  ██║╚██╔╝██║                      ║
+@ascii ║   ███████║   ██║   ███████║   ██║   ███████╗██║ ╚═╝ ██║                      ║
+@ascii ║   ╚══════╝   ╚═╝   ╚══════╝   ╚═╝   ╚══════╝╚═╝     ╚═╝                      ║
+@ascii ║                                                                              ║
+@ascii ║   BREACH DETECTED ░░░ ACCESS GRANTED ░░░ WELCOME                             ║
+@ascii ║                                                                              ║
+@ascii ╚══════════════════════════════════════════════════════════════════════════════╝
+@blank
+@label IDENTITY     :: Nirjhar "Tyler" Datta
+@label CLEARANCE    :: VAPT InfoSec Analyst @ Five Tattva Cyberhub
+@label STATUS       :: Final Year CSE (Cybersecurity) — DIT University
+@label THREAT LEVEL :: ██████████░░ HIGH
